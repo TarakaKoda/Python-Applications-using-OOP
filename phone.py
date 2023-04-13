@@ -11,6 +11,7 @@ class Phone(Item):
 
         # Assigning arguments
         self.broken_phone = broken_phone
+
         Phone.all.append(self)
 
     def condition_of_phone(self):
