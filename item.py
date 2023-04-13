@@ -3,7 +3,7 @@ import csv
 
 class Item:
     broken_phone = 0
-    pay_rate = 0.80  # pay rate of 20%
+    pay_rate = 0.80  # Pay Rate of 20%
     all = []
 
     def __init__(self, name: str, price: float, quantity=1):
